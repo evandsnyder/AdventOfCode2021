@@ -1,12 +1,20 @@
 #include <iostream>
 #include <vector>
+#include <ctime>
+#include <unordered_map>
 
-#include "DayOneSolver.hpp"
+// #include "DayOneSolver.hpp"
+#include "SolverFactory.hpp"
 
-int main(int, char**) {
+int main(int argc, char** argv) {
+    // get current time
+    time_t now = time(0);
+    tm *date_info = gmtime(&now);
+    int monthDay = date_info->tm_mday;
+
     std::vector<Solver*> solvers;
-
-    solvers.push_back(new DayOneSolver("../resources/day_one_input.txt"));
+    SolverFactory solverFactory;
+    solvers.push_back(solverFactory.CreateSolver(monthDay));
 
     for(auto &solver : solvers){
         solver->solve();

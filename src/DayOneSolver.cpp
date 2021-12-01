@@ -1,18 +1,21 @@
 #include "DayOneSolver.hpp"
 
-DayOneSolver::DayOneSolver(std::string inputFilename){
-    std::ifstream infile(inputFilename);
+DayOneSolver::DayOneSolver(std::string fileName) : fileName(fileName){}
+
+void DayOneSolver::solve()
+{
+    readFile();
+    partOne();
+    partTwo();
+}
+
+void DayOneSolver::readFile(){
+    std::ifstream infile(this->fileName);
     int t;
     while(infile >> t){
         this->values.push_back(t);
     }
     infile.close();
-}
-
-void DayOneSolver::solve()
-{
-    partOne();
-    partTwo();
 }
 
 void DayOneSolver::partOne()
