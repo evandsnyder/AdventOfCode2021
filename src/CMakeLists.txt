@@ -1,6 +1,7 @@
 add_executable(AdventOfCode2021 
 main.cpp 
 DayOneSolver.cpp
+DayTwoSolver.cpp
 SolverFactory.cpp
 )
 

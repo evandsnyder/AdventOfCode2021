@@ -6,8 +6,8 @@ Solver *SolverFactory::CreateSolver(int date)
     {
         case 1:
             return new DayOneSolver("../resources/day_one_input.txt");
-            break;
         case 2:
+            return new DayTwoSolver("../resources/day_two_input.txt");
         case 3:
         case 4:
         case 5:
