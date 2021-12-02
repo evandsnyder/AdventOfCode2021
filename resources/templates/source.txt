@@ -1,0 +1,23 @@
+#include "Day${DAY}Solver.hpp"
+
+Day${DAY}Solver::Day${DAY}Solver(std::string fileName) : fileName(fileName) {}
+
+void Day${DAY}Solver::solve(){
+    readFile();
+    partOne();
+    partTwo();
+}
+
+void Day${DAY}Solver::readFile(){
+
+}
+
+void Day${DAY}Solver::partOne(){
+
+    std::cout << "Part One Solution: " << 0 << std::endl;
+}
+
+void Day${DAY}Solver::partTwo(){
+
+    std::cout << "Part Two Solution: " << 0 << std::endl;
+}
