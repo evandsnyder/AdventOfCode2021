@@ -58,11 +58,8 @@ def main():
                 f.write(source_template.safe_substitute({"DAY": v}))
         
         # Create the case statements... ?
-        # print(f"case {k}: return new Day{v}Solver(\"../resources/day_{v.lower()}_input.txt\");")
+        print(f"case {k}: return new Day{v}Solver(\"../resources/day_{v.lower()}_input.txt\");")
 
-        # print("\n\n")
-
-        print(f"Day{v}Solver.cpp")
 
 
 if __name__ == "__main__":
