@@ -16,7 +16,7 @@ int main(int argc, char **argv)
         {
             solvers.push_back(solverFactory.CreateSolver(i));
         }
-    } else if(argc > 2){
+    } else if(argc >= 2){
         // convert to int and add to solver...
         for(int i = 1; i < argc; i++){
             solvers.push_back(solverFactory.CreateSolver(atoi(argv[i])));
