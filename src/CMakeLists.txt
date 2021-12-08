@@ -25,12 +25,6 @@ DayTwentyTwoSolver.cpp
 DayTwentyThreeSolver.cpp
 DayTwentyFourSolver.cpp
 DayTwentyFiveSolver.cpp
-DayTwentySixSolver.cpp
-DayTwentySevenSolver.cpp
-DayTwentyEightSolver.cpp
-DayTwentyNineSolver.cpp
-DayThirtySolver.cpp
-DayThirtyOneSolver.cpp
 SolverFactory.cpp
 )
 

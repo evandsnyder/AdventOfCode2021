@@ -26,12 +26,6 @@
 #include "DayTwentyThreeSolver.hpp"
 #include "DayTwentyFourSolver.hpp"
 #include "DayTwentyFiveSolver.hpp"
-#include "DayTwentySixSolver.hpp"
-#include "DayTwentySevenSolver.hpp"
-#include "DayTwentyEightSolver.hpp"
-#include "DayTwentyNineSolver.hpp"
-#include "DayThirtySolver.hpp"
-#include "DayThirtyOneSolver.hpp"
 
 class SolverFactory
 {

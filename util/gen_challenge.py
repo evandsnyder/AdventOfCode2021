@@ -30,13 +30,7 @@ def main():
         22: "TwentyTwo",
         23: "TwentyThree",
         24: "TwentyFour",
-        25: "TwentyFive",
-        26: "TwentySix",
-        27: "TwentySeven",
-        28: "TwentyEight",
-        29: "TwentyNine",
-        30: "Thirty",
-        31: "ThirtyOne"
+        25: "TwentyFive"
     }
     
     with open("resources/templates/header.txt") as f:

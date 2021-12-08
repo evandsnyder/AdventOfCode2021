@@ -56,18 +56,6 @@ Solver *SolverFactory::CreateSolver(int date)
         return new DayTwentyFourSolver("../resources/day_twentyfour_input.txt");
     case 25:
         return new DayTwentyFiveSolver("../resources/day_twentyfive_input.txt");
-    case 26:
-        return new DayTwentySixSolver("../resources/day_twentysix_input.txt");
-    case 27:
-        return new DayTwentySevenSolver("../resources/day_twentyseven_input.txt");
-    case 28:
-        return new DayTwentyEightSolver("../resources/day_twentyeight_input.txt");
-    case 29:
-        return new DayTwentyNineSolver("../resources/day_twentynine_input.txt");
-    case 30:
-        return new DayThirtySolver("../resources/day_thirty_input.txt");
-    case 31:
-        return new DayThirtyOneSolver("../resources/day_thirtyone_input.txt");
     default:
         break;
     }

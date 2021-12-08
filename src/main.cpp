@@ -12,7 +12,7 @@ int main(int argc, char **argv)
     if (strcmp(argv[1],"-a") == 0)
     {
         // Run all challenges...
-        for (int i = 1; i < 32; i++)
+        for (int i = 1; i < 26; i++)
         {
             solvers.push_back(solverFactory.CreateSolver(i));
         }

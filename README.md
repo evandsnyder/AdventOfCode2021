@@ -40,9 +40,3 @@ If no argument is provided, the program will attempt to execute the challenge fo
 - [ ] Day TwentyThree
 - [ ] Day TwentyFour
 - [ ] Day TwentyFive
-- [ ] Day TwentySix
-- [ ] Day TwentySeven
-- [ ] Day TwentyEight
-- [ ] Day TwentyNine
-- [ ] Day Thirty
-- [ ] Day ThirtyOne
