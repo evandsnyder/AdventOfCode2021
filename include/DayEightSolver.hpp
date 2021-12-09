@@ -5,6 +5,8 @@
 #include <vector>
 #include <stdio.h>
 #include <sstream>
+#include <unordered_map>
+#include <set>
 
 #include "Solver.hpp"
 
