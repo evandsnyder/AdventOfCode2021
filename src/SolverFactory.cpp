@@ -14,17 +14,14 @@ Solver *SolverFactory::CreateSolver(int date)
         return new DayFourSolver("../resources/day_four_input.txt");
     case 5:
         return new DayFiveSolver("../resources/day_five_input.txt");
-        // return new DayFiveSolver("../resources/sample.txt");
     case 6:
         return new DaySixSolver("../resources/day_six_input.txt");
     case 7:
         return new DaySevenSolver("../resources/day_seven_input.txt");
     case 8:
         return new DayEightSolver("../resources/day_eight_input.txt");
-        // return new DayEightSolver("../resources/sample.txt");
     case 9:
         return new DayNineSolver("../resources/day_nine_input.txt");
-        // return new DayNineSolver("../resources/sample.txt");
     case 10:
         return new DayTenSolver("../resources/day_ten_input.txt");
     case 11:
