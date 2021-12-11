@@ -22,11 +22,11 @@ If no argument is provided, the program will attempt to execute the challenge fo
 - [x] Day Five
 - [x] Day Six
 - [x] Day Seven
-- [ ] Day Eight
-- [ ] Day Nine
-- [ ] Day Ten
-- [ ] Day Eleven
-- [ ] Day Twelve
+- [x] Day Eight
+- [x]] Day Nine
+- [x] Day Ten
+- [x] Day Eleven
+- [x] Day Twelve
 - [ ] Day Thirteen
 - [ ] Day Fourteen
 - [ ] Day Fifteen
