@@ -30,8 +30,10 @@ Solver *SolverFactory::CreateSolver(int date)
         return new DayTwelveSolver("../resources/day_twelve_input.txt");
     case 13:
         return new DayThirteenSolver("../resources/day_thirteen_input.txt");
+        // return new DayThirteenSolver("../resources/sample.txt");
     case 14:
         return new DayFourteenSolver("../resources/day_fourteen_input.txt");
+        // return new DayFourteenSolver("../resources/sample.txt");
     case 15:
         return new DayFifteenSolver("../resources/day_fifteen_input.txt");
     case 16:

@@ -27,8 +27,8 @@ If no argument is provided, the program will attempt to execute the challenge fo
 - [x] Day Ten
 - [x] Day Eleven
 - [x] Day Twelve
-- [ ] Day Thirteen
-- [ ] Day Fourteen
+- [x] Day Thirteen
+- [x] Day Fourteen
 - [ ] Day Fifteen
 - [ ] Day Sixteen
 - [ ] Day Seventeen
