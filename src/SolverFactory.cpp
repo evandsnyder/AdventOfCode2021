@@ -36,7 +36,6 @@ Solver *SolverFactory::CreateSolver(int date)
         return new DayFifteenSolver("../resources/day_fifteen_input.txt");
     case 16:
         return new DaySixteenSolver("../resources/day_sixteen_input.txt");
-        // return new DaySixteenSolver("../resources/sample.txt");
     case 17:
         return new DaySeventeenSolver("../resources/day_seventeen_input.txt");
     case 18:
